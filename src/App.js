@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import 'bootstrap/scss/bootstrap-reboot.scss';
+import './App.scss';
+
+import Hero from './components/hero.component'
+import Banner from './components/banner.component'
+
+import VideosContainer from './containers/videos.container'
+import TourContainer from './containers/tour.container'
+
+import Footer from './components/footer.component'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    return (
+      <div className="App">
+        <Hero />
+        <Banner>
+          <span></span>
+        </Banner>
+        <main className="sections" id="main">
+          <VideosContainer title="Videos" />
+          <TourContainer title="Tour Dates" />
+        </main>
+        <Footer title="Them Things" />
+      </div>
+    );
 }
 
 export default App;

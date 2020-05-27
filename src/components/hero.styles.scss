@@ -1,0 +1,20 @@
+.hero{
+    background: url(../assets/herobg.jpg) center bottom/auto 100% repeat-x;
+    position: relative;
+    overflow: hidden;
+    picture{
+        max-width: 100%;
+    }
+    .container{
+        text-align: center;
+        h1{
+            position: absolute;
+            font-size: 4rem;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 10px rgba(black, .5);
+            color: #F57E63;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400&family=Londrina+Solid:wght@900&display=swap');
+
+@import './variables';
+
+html{
+    font-size: 18px;
+}
+
+a{
+    color: $color2;
+    &:hover{
+        color: $color1;
+        text-decoration: none;
+    }
+}
+
+body{
+    font-family: $font1;
+    color: $color4;
+    overflow-x: hidden;
+    background: url(assets/bg3.jpg) center bottom/cover no-repeat fixed;
+    background-color: #050306;
+}
+
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.container{
+    width: 975px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#main{
+    padding: 2rem 0;
+}

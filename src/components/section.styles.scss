@@ -1,0 +1,27 @@
+@import '../variables';
+
+.section{
+    padding: 6rem 0;
+    overflow: hidden;
+    header{
+        h2{
+            transform: translate(0, -2rem) rotate(-3deg);
+            font-family: $font2;
+            line-height: 1;
+            font-size: 6rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin: 0;
+            color: transparent;
+            -webkit-text-stroke-color: $color4;
+            -webkit-text-stroke-width: 2px;
+            text-align: center;
+            @media (min-width: 900px) {
+                text-align: left;
+            }
+        }
+    }
+    main{
+        padding: 0 2rem;
+    }
+}
