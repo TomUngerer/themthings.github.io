@@ -2,11 +2,7 @@ import React from 'react'
 import './hero.styles.scss'
 
 let image = (
-  <picture>
-    <source type="image/webp" srcSet="img/hero.webp" />
-    <source type="image/jpeg" srcSet="img/hero.jpg" />
-    <img src="img/hero.jpg" alt="hero" />
-  </picture>
+  <div className="hero-img" />
 )
 
 class Hero extends React.Component {

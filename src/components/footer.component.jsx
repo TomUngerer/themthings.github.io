@@ -4,7 +4,7 @@ import './footer.styles.scss'
 
 import SocialMediaLinks from './social-media-links.component'
 
-import { ReactComponent as Logo } from "../assets/themthings.svg";
+import { ReactComponent as Logo } from "../assets/images/themthings.svg";
 
 
 const Footer = (props) => {

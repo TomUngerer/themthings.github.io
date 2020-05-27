@@ -1,9 +1,10 @@
 .hero{
-    background: url(../assets/herobg.jpg) center bottom/auto 100% repeat-x;
+    background: url(../assets/images/herobg.jpg) center bottom/auto 100% repeat-x;
     position: relative;
     overflow: hidden;
-    picture{
-        max-width: 100%;
+    .hero-img{
+        padding-bottom: percentage(666/939);
+        background: url(../assets/images/hero.jpg) center bottom/100% auto no-repeat;
     }
     .container{
         text-align: center;
