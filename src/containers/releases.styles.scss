@@ -1,0 +1,30 @@
+.release{
+    .album{
+        position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .1),
+        0 10px 13px 0 rgba(0, 0, 0, .11);
+        display: inline-block;
+        img {
+            width: 200px;
+            height: 200px;
+            max-width: 100%;
+            border-radius: 4px;
+            position: relative;
+            z-index: 1;
+        }
+        .disk{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: url(../assets/images/vinyl.png) center/90% auto no-repeat;
+            transition: transform .3s ease-in-out;
+        }
+        &:hover{
+            .disk{
+                transform: translateX(30px);
+            }
+        }
+    }
+}

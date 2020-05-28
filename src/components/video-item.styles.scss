@@ -16,6 +16,9 @@
         height: auto;
         max-width: 100%;
         will-change: transform;
+        &::-internal-media-controls-overlay-cast-button {
+            display: none;
+        }
     }
     &>div {
         position: absolute;
